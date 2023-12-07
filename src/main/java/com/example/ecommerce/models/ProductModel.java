@@ -30,14 +30,14 @@ public class ProductModel implements Serializable {
 
     @Column(name = "id")
     private UUID idProduct;
-    @Column(name = "nome")
-    private String name;
+    @Column(name = "descricao")
+    private String description;
     @Column(name = "marca")
     private String brand;
     @Column(name = "cor")
     private String color;
     @Column(name = "categoria")
     private String category;
-    @Column(name = "valor")
-    private BigDecimal value;
+    @Column(name = "preco")
+    private BigDecimal price;
 }
